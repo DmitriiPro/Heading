@@ -1,0 +1,249 @@
+.form {
+    background-image: url('../img/background-form.png');
+    
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.form__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.form__input-block {
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 423px;
+    height: 44px;
+    border: 1.38235px solid var(--main-color-white, #FFFFFF);
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    padding: 9px 0 9px 25px;
+    
+}
+
+.input {
+    gap: 21px;
+}
+
+.form__btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: var(--main-color-white, #FFFFFF);
+    background: #15A9CB;
+    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    border-radius: 50px;
+    padding: 11px 38px 13px;
+
+}
+
+.form__element {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+}
+
+.form__link {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: underline;
+    color: #4A76A8;
+}
+
+/* aдаптивы */
+
+@media (max-width: 1024px) {
+    .form__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .form__subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .form__input-block {
+        width: 379px;
+    }
+
+    .input {
+        width: 377px;
+        height: 39px;
+    }
+
+    .form__button {
+        width: 218px;
+        height: 48px;
+        
+    }
+
+    .form__btn {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 11px 38px;
+        
+    }
+
+    .form__element {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .form__title {
+        font-size: 28px;
+        line-height: 33px;
+    
+    }
+
+    .form__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+        
+    }
+
+    .form__input-block {
+        width: 320px;
+    }
+
+    .input {
+        width: 320px;
+        height: 25px;
+    }
+
+    .form__button {
+        width: 180px;
+        height: 30px;
+        
+    }
+
+    .form__btn {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px 34px;
+        
+    }
+
+    .form__element {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .form__link {
+        font-size: inherit;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    
+    .form__subtitle {
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .form__element {
+        width: 300px;
+        margin: 0 auto;
+    } 
+
+    .form__input-block {
+        align-items: center;
+    }
+
+    .input {
+        width: 300px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 366px) {
+    .form__title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .form__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 20px;
+    }
+
+    .form__input-block {
+        width: 290px;
+    }
+
+    .input {
+        width: 290px;
+        height: 28px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px 0 6px 18px;
+    }
+
+    .form__button {
+        width: 174px;
+        height: 38px;
+    }
+
+    .form__btn {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 9px 26px;
+    }
+
+    .form__element {
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+        width: 289px;
+        padding-right: 20px;
+    }
+
+    .form__link {
+        font-size: inherit;
+    }
+    
+}
