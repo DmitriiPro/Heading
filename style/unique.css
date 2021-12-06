@@ -40,7 +40,7 @@
     font-size: 20px;
     line-height: 28px;
     width: 196px;
-    height: 195px;
+    height: 199px;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -72,7 +72,7 @@
     color: var(--main-color-white, #FFFFFF);
     background: #23C7EC;
     width: 122px;
-    height: 122px;
+    height: 115px;
     padding-top: 30px;
     border-radius: 50%;
     text-align: center;
@@ -125,10 +125,7 @@
         max-width: 430px;
         margin: 0 auto;
     }
-    .unique-container {
-        background-color: var(--background, #F9F9F9);
-    }
-
+    
 }
 
 @media (max-width: 768px) {

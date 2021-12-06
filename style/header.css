@@ -44,7 +44,7 @@
     font-weight: 900;
     font-size: 52px;
     line-height: 61px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
     width: 990px;
 }
 
@@ -52,8 +52,8 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
-    width: 960px;
-    margin-bottom: 90px;
+    width: 991px;
+    margin-bottom: 86px;
 }
 
 .wrapper-text {
@@ -74,6 +74,27 @@
     box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
     border-radius: 50px;
     padding: 12px 48px;
+}
+
+/* состояния  */
+.header__link {
+    transition: all 0.200s ease-in;
+} 
+
+.header__link:hover {
+    filter: opacity(0.7);
+}
+
+.header__btn {
+    transition: all 0.200s ease-in;
+}
+
+.header__btn:hover {
+    filter: opacity(0.7);
+}
+
+.header__btn:active {
+    filter: opacity(1);
 }
 
 /* адаптивы */
