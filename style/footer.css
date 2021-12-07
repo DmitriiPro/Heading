@@ -9,7 +9,6 @@
     align-items: center;
 }
 
-
 .footer__logo {
     margin-right: 19px;
 }
@@ -144,6 +143,7 @@
 }
 
 @media(max-width: 320px) {
+
     .footer {
         padding: 25px 0 0;
     }
