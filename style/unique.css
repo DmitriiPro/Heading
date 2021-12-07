@@ -50,7 +50,6 @@
 .wrapper-list {
     display: flex;
     justify-content: space-around;
-
 }
 
 .unique__list {
@@ -226,7 +225,6 @@
         flex-wrap: wrap;
     }
     .unique__item::after {
-        
         top: 16px;
         right: 37px;
         font-weight: 500;
@@ -324,7 +322,7 @@
 
 @media (max-width: 360px) {
     .unique__title {
-        width: 290px;
+        width: auto;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -344,13 +342,12 @@
         font-size: 12px;
         line-height: 17px;
         text-align: center;
-        padding-right: 25px;
         margin: 0 auto;
-        width: 280px;
+        max-width: 280px;
     }
     
     .wrap-text {
-        width: 330px;
+        width: auto;
         margin: 0 auto;
         margin-bottom: 15px;
     }
@@ -385,7 +382,6 @@
         width: 166px;
     }
     .unique__item::after {
-        
         top: 16px;
         right: 37px;
         font-weight: 500;
