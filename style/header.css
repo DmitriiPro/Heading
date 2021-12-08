@@ -1,5 +1,6 @@
 .header {
     background-image: url('../img/back-header.png');
+    background-size: contain;
     padding: 40px 0 70px;
 }
 
@@ -103,7 +104,7 @@
 @media (max-width: 1110px) {
 
     .header {
-        padding: 18px 0 70px;
+        padding: 27px 0 70px;
     }
 
     .header__link {
@@ -111,7 +112,7 @@
     }
 
     .wrapper-nav {
-        margin-bottom: 65px;
+        margin-bottom: 69px;
     }
 
     .header__logo {
@@ -138,7 +139,8 @@
     }
 
     .wrapper-text {
-        margin-right: 122px;
+        padding-left: 119px;
+        margin-right: 115px;
         
     }
 
@@ -147,14 +149,16 @@
         font-size: 40px;
         line-height: 47px;
         width: 100%;
+        margin-bottom: 28px;
     }
 
     .header__element {
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        width:100%;
-        margin-bottom: 44px;
+        min-height: 70px;
+        width: 100%;
+        margin-bottom: 57px
     }
 
     .wrapper-text {
@@ -234,6 +238,10 @@
         padding: 15px 0 65px;
     }
 
+    .container {
+        padding: 0 15px;
+    }
+
     .wrapper-nav {
         margin-bottom: 50px;
     }
@@ -243,7 +251,7 @@
         font-size: 20px;
         line-height: 23px;
         width: 290px;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
     }
 
     .header__element {

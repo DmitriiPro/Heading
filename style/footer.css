@@ -167,7 +167,10 @@
     }
 
     .footer__paragraph-name {
+        flex-basis: calc(100% + 30px);
+        margin: 25px -15px 0;
         font-size: 12px;
         line-height: 17px;
     }
+
 }

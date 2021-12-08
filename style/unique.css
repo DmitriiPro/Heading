@@ -63,7 +63,7 @@
     counter-increment: count;
     content: counter(count);
     position: absolute;
-    top: 16px;
+    top: 10px;
     right: 37px;
     font-weight: 500;
     font-size: 57px;
@@ -82,7 +82,7 @@
 
 @media (max-width: 1110px) {
     .unique {
-        padding: 70px 0;
+        padding: 70px 0 72px;
     }
 
     .unique__title {
@@ -90,6 +90,10 @@
         font-size: 32px;
         line-height: 37px;
         text-align: center;
+    }
+
+    .wrap-text {
+        margin-bottom: 47px;
     }
 
     .unique__subtitle {
@@ -116,7 +120,7 @@
     .unique__item::after {
         width: 104px;
         height: 104px;
-        padding-top: 25px;
+        padding-top: 21px;
     }
 }
 
@@ -329,11 +333,11 @@
 
 @media (max-width: 360px) {
     .unique {
-        padding: 32px 0 56px 0;
+        padding: 30px 0 72px;
     }
 
     .unique__title {
-        max-width: 265px;
+        width: 290px;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -388,14 +392,10 @@
     
     .unique__list {
         display: flex;
-        gap: 25px;
+        gap: 45px;
         counter-reset: count 0;
         flex-wrap: wrap;
         width: 166px;
-    }
-
-    .unique__list {
-        gap: 50px;
     }
 
     .unique__item::after {
@@ -408,7 +408,7 @@
         background: #23C7EC;
         width: 104px;
         height: 104px;
-        padding-top: 17px;
+        padding-top: 11px;
         border-radius: 50%;
         text-align: center;
     }
